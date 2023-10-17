@@ -1,0 +1,30 @@
+[
+  {
+    "image":"/dollar-icon-png-3547.png",
+    "name": "Earning",
+    "total": "$198k",
+    "increment": "37.5 this month",
+    "decrement": ""
+  },
+  {
+    "image":"/icons8-total-sales-48.png",
+    "name": "orders",
+    "total": "$2.4k",
+    "decrement": "2% this month",
+    "increment": ""
+  },
+  {
+    "image":"/pngwing.com.png",
+    "name": "balance",
+    "total": "$2.4k",
+    "decrement": "2% this month",
+    "increment": ""
+  },
+  {
+    "image":"/pngwing.com.png",
+    "name": "balance",
+    "total": "$2.4k",
+    "decrement": "2% this month",
+    "increment": ""
+  }
+]

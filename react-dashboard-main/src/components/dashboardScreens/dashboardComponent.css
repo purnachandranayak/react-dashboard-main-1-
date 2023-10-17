@@ -1,0 +1,89 @@
+.mainContainer {
+  width: "100%";
+  height: "100vh";
+  overflow: "scroll";
+}
+.headingText {
+  padding: 12px;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.cardDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 23px;
+}
+/* dashboardComponent.css */
+.chartDiv {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 400px;
+  margin-top: 23px;
+  padding: 12px; /* Adjust this property to control the spacing between charts */
+}
+
+.chartContainer1 {
+  margin-right: 10px;
+   width: 45%;
+   height: 195px;
+}
+.chartContainer2 {
+  margin-right: 10px;
+  width: 19%;
+  margin-left: 30px; /* Adjust this margin for spacing between the charts */
+}
+.customerDetailsContainer {
+  padding: 12px;
+  /* align-self: center; */
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.text1 {
+  font-size: 18;
+  font-weight: 700;
+  opacity: 0.3;
+  color: black;
+}
+.text2 {
+  margin-top: 12px;
+  font-size: 16;
+  font-weight: bold;
+  color: black;
+}
+.text3 {
+  font-size: 12px;
+  color: black;
+}
+
+@media screen and (max-width: 640px) {
+  .cardDiv {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    gap: 12px;
+  }
+  .chartDiv {
+   flex-direction: column;
+   align-items: center;
+  }
+  .chartContainer1 {
+    margin-right: 10px;
+    width: 70%; /* Adjust this margin for spacing between the charts */
+  }
+  .chartContainer2 {
+    margin-right: 10px;
+    width: 80%;
+    margin-left: 0px; 
+    margin-top: 12px;/* Adjust this margin for spacing between the charts */
+  }
+  .heading{
+    margin-top: 91px;
+  }
+}
